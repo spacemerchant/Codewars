@@ -14,9 +14,14 @@ function openOrSenior(data){
 }
 openOrSenior(([[45, 12],[55,21],[19, -2],[104, 20]]))
 
-//CORRECT//
+//CORRECT -- FIRST TRYY -- Difficulty 2/5 //
 
 
 
 // Top Solution 
+// Destructuring: [age, handicap] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+// Arrow Functions: () => {} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
+function openOrSenior(data){
+    return data.map(([age, handicap]) => (age > 54 && handicap > 7) ? 'Senior' : 'Open');
+  }
