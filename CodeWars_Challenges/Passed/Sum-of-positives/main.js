@@ -9,12 +9,14 @@ console.log(sum)
 
 positiveSum([1,-2,3,4,5])
 
-//Difficulty 1/5
+//Difficulty 1/5 //
+//8 KYU
 
 
 
-//TOP SOLUTION 
+//TOP SOLUTION //
 
 function positiveSum(arr) {
     return arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
- }
+
+}
