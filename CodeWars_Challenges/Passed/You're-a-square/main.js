@@ -3,7 +3,7 @@ var isSquare = function(n){
 }
 
 
-//Difficulty 1/5 //
+//Difficulty 2/5 //
 
 
 // Top solutions //
