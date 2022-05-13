@@ -49,4 +49,4 @@ function driver(data) {
     var arb1 = "9"
     var arb2 = "AA"
     return name + dec + month + day + yearDig + inits + arb1 + arb2
-  }
+}
