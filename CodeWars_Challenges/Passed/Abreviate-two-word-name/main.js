@@ -1,6 +1,5 @@
 function abbrevName(name){
     let split = name.split(' ')
-    console.log(split)
     return (split[0][0] + '.' + split[1][0]).toUpperCase();
 }
 abbrevName("Sam Harris")
